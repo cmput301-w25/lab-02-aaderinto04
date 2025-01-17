@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                         String item = entry.getText().toString();
                         dataList.add(item);
                         cityAdapter.notifyDataSetChanged();
+                        entry.setText("");
                         entry.setVisibility(View.INVISIBLE);
                         confirmButton.setVisibility(View.INVISIBLE);
                     }

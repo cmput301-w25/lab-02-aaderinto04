@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     EditText entry;
     Button confirmButton;
     Button deleteCity;
-
+//Lab 2222222
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
